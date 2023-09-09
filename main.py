@@ -38,6 +38,12 @@ optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["Option 1", "Option 
 optionmenu_1.pack(pady=10, padx=10)
 optionmenu_1.set("CTkOptionMenu")
 
+# new
+optionmenu_2 = customtkinter.CTkOptionMenu(frame_1, values=["Option 1", "Option 2", "Option 42 long long long..."])
+optionmenu_2.pack(pady=10, padx=10)
+optionmenu_2.set("CTkOptionMenu")
+# end
+
 combobox_1 = customtkinter.CTkComboBox(frame_1, values=["Option 1", "Option 2", "Option 42 long long long..."])
 combobox_1.pack(pady=10, padx=10)
 combobox_1.set("CTkComboBox")
