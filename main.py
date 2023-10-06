@@ -34,17 +34,17 @@ slider_1.set(0.5)
 entry_1 = customtkinter.CTkEntry(master=frame_1, placeholder_text="CTkEntry")
 entry_1.pack(pady=10, padx=10)
 
-optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["Option 1", "Option 2", "Option 42 long long long..."])
+optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["Option 1", "Option 2", "Option 42"])
 optionmenu_1.pack(pady=10, padx=10)
 optionmenu_1.set("CTkOptionMenu")
 
 # new
-optionmenu_2 = customtkinter.CTkOptionMenu(frame_1, values=["Option 1", "Option 2", "Option 42 long long long..."])
+optionmenu_2 = customtkinter.CTkOptionMenu(frame_1, values=["Option 1", "Option 2", "Option 43"])
 optionmenu_2.pack(pady=10, padx=10)
 optionmenu_2.set("CTkOptionMenu")
 # end
 
-combobox_1 = customtkinter.CTkComboBox(frame_1, values=["Option 1", "Option 2", "Option 42 long long long..."])
+combobox_1 = customtkinter.CTkComboBox(frame_1, values=["Option 1", "Option 2", "Option 44"])
 combobox_1.pack(pady=10, padx=10)
 combobox_1.set("CTkComboBox")
 
